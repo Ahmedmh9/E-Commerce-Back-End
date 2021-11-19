@@ -27,22 +27,3 @@ Tag.init(
 );
 
 module.exports = Tag;
-
-/*
-Tag
-
-1.id
-
-Integer.
-
-Doesn't allow null values.
-
-Set as primary key.
-
-Uses auto increment.
-
-2.tag_name
-
-String.
-
-*/

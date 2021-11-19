@@ -41,27 +41,3 @@ ProductTag.init(
 );
 
 module.exports = ProductTag;
-
-/* ProductTag
-
-1.id
-
-Integer.
-
-Doesn't allow null values.
-
-Set as primary key.
-
-Uses auto increment.
-
-2.product_id
-
-Integer.
-
-References the Product model's id.
-
-3.tag_id
-
-Integer.
-
-References the Tag model's id. */

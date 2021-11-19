@@ -21,7 +21,7 @@ Product.init(
       allowNull: false,
     },
     price: {
-      type: DataTypes.DECIMAL,
+      type: DataTypes.INTEGER,
       allowNull: false,
       validate: {
         isDecimal: true,
@@ -54,44 +54,3 @@ Product.init(
 );
 
 module.exports = Product;
-/*Product
-1.id
-
-Integer.
-
-Doesn't allow null values.
-
-Set as primary key.
-
-Uses auto increment.
-
-
-
-
-
-2.product_name
-
-String.
-
-Doesn't allow null values.
-
-
-3.price
-
-Decimal.
-
-Doesn't allow null values.
-
-Validates that the value is a decimal.
-
-
-
-4.stock
-
-Integer.
-
-Doesn't allow null values.
-
-Set a default value of 10.
-
-Validates that the value is numeric.*/
